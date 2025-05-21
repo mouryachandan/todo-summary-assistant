@@ -72,14 +72,7 @@ npm install
 cp .env.example .env
 ```
 
-### Fill in the `.env` with your actual keys:
 
-```env
-PORT=5000
-SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_KEY=your-supabase-service-role-key
-OPENAI_API_KEY=your-openai-api-key
-SLACK_WEBHOOK_URL=https://hooks.slack.com/services/your-webhook-url
 ```
 
 ### Run the backend server
@@ -170,7 +163,7 @@ npm start
 ## Live Demo 
 
 Frontend:https://todo-summary-assistant-orcin.vercel.app/
-Backend:
+Backend: https://todo-summary-assistant-85e6.onrender.com
 
 ---
 
