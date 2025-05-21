@@ -4,7 +4,7 @@ import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
 
 
-const API = process.env.REACT_APP_API || "https://todo-summary-assistant-85e6.onrender.com/";
+const API = process.env.REACT_APP_API || "https://todo-summary-assistant-85e6.onrender.com";
 
 function App() {
   const [todos, setTodos] = useState([]);
