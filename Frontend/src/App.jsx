@@ -3,7 +3,8 @@ import axios from "axios";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
 
-const API = "http://localhost:5000";
+
+const API = process.env.REACT_APP_API;
 
 function App() {
   const [todos, setTodos] = useState([]);
